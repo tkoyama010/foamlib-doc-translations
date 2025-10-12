@@ -1,4 +1,5 @@
--r foamlib/requirements/pypi-optional-docs.txt
--r foamlib/requirements/pypi-optional-exam.txt
-foamlib @ git+https://github.com/gerlero/foamlib.git
+foamlib[preprocessing,postprocessing] @ git+https://github.com/gerlero/foamlib.git
+sphinx>=5,<9
+sphinx_rtd_theme
+sphinxcontrib-mermaid
 sphinx-intl[transifex]==2.3.1

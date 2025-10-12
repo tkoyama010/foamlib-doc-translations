@@ -9,5 +9,5 @@ tx pull -l ja
 
 # Update LC_MESSAGES/*.po
 cd ..
-sphinx-build -T -b gettext foamlib/docs/src locale/pot
+sphinx-build -T -b gettext foamlib/docs locale/pot
 sphinx-intl update -p locale/pot -l ja -d locale

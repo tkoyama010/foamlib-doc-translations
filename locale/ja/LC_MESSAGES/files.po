@@ -1,0 +1,606 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024-2025, Gabriel S. Gerlero
+# This file is distributed under the same license as the foamlib package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: foamlib\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-12 05:41+0000\n"
+"PO-Revision-Date: 2025-10-12 05:41+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../foamlib/docs/files.rst:2
+msgid "📄 File manipulation"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile:1
+msgid ""
+"Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [str | "
+"tuple[str, ...] | None, Data | StandaloneData | FoamFile.SubDict], "
+":py:class:`~foamlib._files._io.FoamFileIO`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile:1
+msgid "An OpenFOAM data file."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile:3
+msgid ""
+":class:`FoamFile` supports most OpenFOAM data and configuration files (i.e.,"
+" files with a \"FoamFile\" header), including those with regular expressions"
+" and #-based directives. Notable exceptions are FoamFiles with #codeStreams,"
+" which are currently not supported. Non-FoamFile output files are also not "
+"supported by this class. Regular expressions and #-based directives can be "
+"accessed and modified, but they are not evaluated or expanded by this "
+"library."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile:10
+msgid ""
+"Use :class:`FoamFile` as a mutable mapping (i.e., like a :class:`dict`) to "
+"access and modify entries. When accessing a sub-dictionary, the returned "
+"value will be a :class:`FoamFile.SubDict` object, that allows for further "
+"access and modification of nested dictionaries within the :class:`FoamFile` "
+"in a single operation."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile:15
+msgid ""
+"If the :class:`FoamFile` does not store a dictionary, the main stored value "
+"can be accessed and modified by passing ``None`` as the key (e.g., "
+"``file[None]``)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile:18
+msgid ""
+"You can also use the :class:`FoamFile` as a context manager (i.e., within a "
+"``with`` block) to make multiple changes to the file while saving any and "
+"all changes only once at the end."
+msgstr ""
+
+#: ../../foamlib/docs/files.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFieldFile:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile:22
+msgid ""
+"The path to the file. If the file does not exist, it will be created when "
+"the first change is made. However, if an attempt is made to access entries "
+"in a non-existent file, a :class:`FileNotFoundError` will be raised."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFieldFile:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict:10
+msgid "Example usage: ::"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFieldFile:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict:18
+msgid "or (better): ::"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib.FoamFile.version:1
+msgid "Alias of ``self[\"FoamFile\"][\"version\"]``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib.FoamFile.format:1
+msgid "Alias of ``self[\"FoamFile\"][\"format\"]``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib.FoamFile.class_:1
+msgid "Alias of ``self[\"FoamFile\"][\"class\"]``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib.FoamFile.location:1
+msgid "Alias of ``self[\"FoamFile\"][\"location\"]``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib.FoamFile.object_:1
+msgid "Alias of ``self[\"FoamFile\"][\"object\"]``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
+#: of multicollections.abc.MultiMapping.__getitem__:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
+#: of multicollections.abc.MultiMapping.getone:1
+msgid "Get the first value for a key."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.popone:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.popone:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
+#: of multicollections.abc.MultiMapping.__getitem__:3
+msgid "Raises a `KeyError` if the key is not found."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.__setitem__:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.__setitem__:1
+msgid "Set the value for a key."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.__setitem__:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.__setitem__:3
+msgid "If the key does not exist, it is added with the specified value."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.__setitem__:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.__setitem__:5
+msgid ""
+"If the key already exists, the first item is assigned the new value, and any"
+" other items with the same key are removed."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.__contains__:1
+msgid "Check if the FoamFile contains the given keyword or tuple of keywords."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.getall:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.getall:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
+#: of multicollections.abc.MultiMapping.getone:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
+#: of multicollections.abc.MutableMultiMapping.popall:3
+msgid ""
+"Raises a `KeyError` if the key is not found and no default is provided."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.getall:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.getall:1
+msgid "Get all values for a key."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.add:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.add:1
+msgid "Add a new value for a key."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
+#: of multicollections.abc.MutableMultiMapping.pop:1
+msgid "Same as `popone`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.popone:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.popone:1
+msgid "Remove and return the first value for a key."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
+#: of multicollections.abc.MutableMultiMapping.popall:1
+msgid "Remove and return all values for a key."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.__len__:1
+msgid ""
+"Return the number of top-level keywords in the FoamFile (excluding the "
+"FoamFile header if present)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.__iter__:1
+msgid ""
+"Iterate over the top-level keys in the FoamFile (excluding the FoamFile "
+"header if present)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.keys:1
+msgid "Return a collection of the keywords in the FoamFile."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.as_dict:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.items:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.keys:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.values:3
+msgid "Whether to include the \"FoamFile\" header in the output."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.values:1
+msgid "Return a collection of the values in the FoamFile."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.items:1
+msgid ""
+"Return a collection of the items (keyword-value pairs) in the FoamFile."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.clear:1
+msgid "Remove all entries from the FoamFile."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.clear:3
+msgid "Whether to also remove the \"FoamFile\" header."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.update:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.update:1
+msgid "Update the multi-mapping with items from another object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.update:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.update:3
+msgid "This replaces existing values for keys found in the other object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.extend:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.extend:1
+msgid "Extend the multi-mapping with items from another object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.merge:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.merge:1
+msgid "Merge another object into the multi-mapping."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.merge:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.merge:3
+msgid ""
+"Keys from `other` that already exist in the multi-mapping will not be "
+"replaced."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.as_dict:1
+msgid "Return a nested dict representation of the file."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/_io.pydocstring
+#: of foamlib._files._io.FoamFileIO.__enter__:1
+msgid ""
+"Read the file from disk if not already read, and defer writing of changes "
+"until the context is exited."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/_io.pydocstring
+#: of foamlib._files._io.FoamFileIO.__exit__:1
+msgid ""
+"If this is the outermost context, write any deferred file changes to disk."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.loads:1
+msgid "Standalone deserializing function."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.loads:3
+msgid "Deserialize the OpenFOAM FoamFile format to Python objects."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.loads:5
+msgid ""
+"The string to deserialize. This can be a dictionary, list, or any other "
+"object that can be serialized to the OpenFOAM format."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.loads:7
+msgid ""
+"Whether to include the \"FoamFile\" header in the output. If `True`, the "
+"header will be included if it is present in the input object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.dumps:1
+msgid "Standalone serializing function."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.dumps:3
+msgid "Serialize Python objects to the OpenFOAM FoamFile format."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.dumps:5
+msgid ""
+"The Python object to serialize. This can be a dictionary, list, or any other"
+" object that can be serialized to the OpenFOAM format."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.dumps:7
+msgid ""
+"Whether to include the \"FoamFile\" header in the output. If ``True``, a "
+"header will be included if it is not already present in the input object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict:1
+msgid ""
+"Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ "
+"[:py:class:`str`, Data | FoamFile.SubDict]"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict:1
+msgid "An OpenFOAM sub-dictionary within a file."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict:3
+msgid ""
+":class:`FoamFile.SubDict` is a mutable mapping that allows for accessing and"
+" modifying nested dictionaries within a :class:`FoamFile` in a single "
+"operation. It behaves like a :class:`dict` and can be used to access and "
+"modify entries in the sub-dictionary."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict:7
+msgid ""
+"To obtain a :class:`FoamFile.SubDict` object, access a sub-dictionary in a "
+":class:`FoamFile` object (e.g., ``file[\"subDict\"]``)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.__len__:1
+msgid "Return the total number of items (key-value pairs)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.__iter__:1
+msgid "Return an iterator over the keys."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.__iter__:3
+msgid "Keys with multiple values will be yielded multiple times."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.keys:1
+msgid "Return a view of the keys in the MultiMapping."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.values:1
+msgid "Return a view of the values in the MultiMapping."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.items:1
+msgid "Return a view of the items (key-value pairs) in the MultiMapping."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.clear:1
+msgid "Remove all items from the multi-mapping."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.as_dict:1
+msgid "Return a nested dict representation of the sub-dictionary."
+msgstr ""
+
+#: ../../foamlib/docs/files.rst:66
+msgid "Alias of :class:`Dimensioned` provided for backward compatibility."
+msgstr ""
+
+#: ../../foamlib/docs/files.rst:68
+msgid "Prefer using :class:`foamlib.Dimensioned` directly."
+msgstr ""
+
+#: ../../foamlib/docs/files.rst:72
+msgid "Alias of :class:`DimensionSet` provided for backward compatibility."
+msgstr ""
+
+#: ../../foamlib/docs/files.rst:74
+msgid "Prefer using :class:`foamlib.DimensionSet` directly."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFieldFile:1
+msgid "Bases: :py:class:`~foamlib._files.files.FoamFile`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFieldFile:1
+msgid ""
+"Subclass of :class:`FoamFile` for representing OpenFOAM field files "
+"specifically."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFieldFile:3
+msgid ""
+"The difference between :class:`FoamFieldFile` and :class:`FoamFile` is that "
+":class:`FoamFieldFile` has the additional properties :attr:`dimensions`, "
+":attr:`internal_field`, and :attr:`boundary_field` that are commonly found "
+"in OpenFOAM field files. Note that these are only a shorthand for accessing "
+"the corresponding entries in the file."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFieldFile:8
+msgid ""
+"See :class:`FoamFile` for more information on how to read and edit OpenFOAM "
+"files."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib.FoamFieldFile.internal_field:1
+msgid "Alias of ``self[\"internalField\"]``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib.FoamFieldFile.boundary_field:1
+msgid "Alias of ``self[\"boundaryField\"]``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib.FoamFieldFile.dimensions:1
+msgid "Alias of ``self[\"dimensions\"]``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFieldFile.BoundariesSubDict:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFieldFile.BoundarySubDict:1
+msgid "Bases: :py:class:`~foamlib._files.files.FoamFile.SubDict`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFieldFile.BoundarySubDict:1
+msgid ""
+"An OpenFOAM dictionary representing a boundary condition as a mutable "
+"mapping."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib.FoamFieldFile.BoundarySubDict.value:1
+msgid "Alias of ``self[\"value\"]``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib.FoamFieldFile.BoundarySubDict.type:1
+msgid "Alias of ``self[\"type\"]``."
+msgstr ""
+
+#: ../../foamlib/docs/files.rst:94
+msgid "Additional types"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.Dimensioned:1
+msgid "A numerical value with associated physical dimensions."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.Dimensioned:3
+msgid "Corresponds to the `dimensioned<...>` type in OpenFOAM."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.Dimensioned:5
+msgid ""
+"The `value` can be a single number (scalar) or a 1D array (vector or "
+"tensor)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.Dimensioned:7
+msgid "The numerical value."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.Dimensioned:8
+msgid ""
+"The physical dimensions as a :class:`DimensionSet` or a sequence of up to 7 "
+"numbers."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.Dimensioned:9
+msgid "An optional name for the dimensioned quantity."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.DimensionSet:1
+msgid "Set of physical dimensions represented as powers of base SI units."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.DimensionSet:3
+msgid "Corresponds to the `dimensionSet` type in OpenFOAM."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.DimensionSet:5
+msgid "Power of the mass dimension."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.DimensionSet:6
+msgid "Power of the length dimension."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.DimensionSet:7
+msgid "Power of the time dimension."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.DimensionSet:8
+msgid "Power of the temperature dimension."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.DimensionSet:9
+msgid "Power of the amount of substance dimension."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.DimensionSet:10
+msgid "Power of the electric current dimension."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
+#: of foamlib._files.types.DimensionSet:11
+msgid "Power of the luminous intensity dimension."
+msgstr ""

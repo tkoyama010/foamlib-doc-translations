@@ -1,0 +1,4 @@
+-r foamlib/requirements/pypi-optional-docs.txt
+-r foamlib/requirements/pypi-optional-exam.txt
+foamlib @ git+https://github.com/gerlero/foamlib.git
+sphinx-intl[transifex]==2.3.1

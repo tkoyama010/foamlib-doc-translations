@@ -1,0 +1,5 @@
+[lint]
+fixable = ["ALL"]
+ignore = ["D203", "D212"]
+select = ["ALL"]
+unfixable = []

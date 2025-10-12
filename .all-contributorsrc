@@ -1,0 +1,27 @@
+{
+  "projectName": "foamlib-doc-translations",
+  "projectOwner": "tkoyama010",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": ["README.md"],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "tkoyama010",
+      "name": "Tetsuo Koyama",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7513610?v=4",
+      "profile": "https://github.com/tkoyama010",
+      "contributions": [
+        "doc",
+        "infra",
+        "translation",
+        "promotion",
+        "ideas",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

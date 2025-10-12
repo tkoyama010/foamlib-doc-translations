@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the foamlib package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-12 05:41+0000\n"
+"POT-Creation-Date: 2025-10-12 06:24+0000\n"
 "PO-Revision-Date: 2025-10-12 05:41+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../foamlib/docs/example.rst:2
 msgid "▶️ Example"
-msgstr ""
+msgstr "▶️ 例"
 
 #: ../../foamlib/docs/example.rst:4
 msgid ""
@@ -27,10 +31,12 @@ msgid ""
 "``scalarTransportFoam`` solver, verifying the diffusion of a scalar field in"
 " a simplified 2D domain."
 msgstr ""
+"このサンプルスクリプトは、簡略化された2次元領域におけるスカラー場の拡散を検証するために、 ``scalarTransportFoam`` "
+"ソルバーの検証テストケースを設定し実行します。"
 
 #: ../../foamlib/docs/example.rst:7
 msgid "Overview"
-msgstr ""
+msgstr "概要"
 
 #: ../../foamlib/docs/example.rst:9
 msgid "Creates a clean OpenFOAM case in the ``diffusionCheck`` subdirectory."

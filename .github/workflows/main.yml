@@ -1,0 +1,70 @@
+name: foamlib-auto-update
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  script:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      issues: write
+      repository-projects: write
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c
+        with:
+          python-version: "3.12"
+      - name: Get Job URL
+        uses: Tiryoh/gha-jobid-action@be260d8673c9211a84cdcf37794ebd654ba81eef
+        id: jobs
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          job_name: script
+      - name: checkout with submodule
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
+        with:
+          persist-credentials: false
+          submodules: true
+          token: ${{ secrets.PERSONAL_ACCESSTOKEN }}
+      - name: Setup SSH
+        uses: MrSquaare/ssh-setup-action@7c2bf610bc02ced37f15ad1a68092145c47b9b4e
+        with:
+          host: github.com
+          private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: install
+        run: |
+          (cd foamlib; git fetch origin; git checkout main; git reset --hard origin/main; git branch -a)
+          pip3 install -U pip setuptools
+          pip3 install -r ./requirements.txt
+          curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
+          mv tx /usr/local/bin/tx
+      - name: update
+        env:
+          SPHINXINTL_TRANSIFEX_ORGANIZATION_NAME: tkoyama010
+          SPHINXINTL_TRANSIFEX_USERNAME: api
+          SPHINXINTL_TRANSIFEX_PROJECT_NAME: foamlib-doc
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+        run: |
+          sh ./locale/update.sh
+      - name: git_config
+        run: |
+          git config --global user.email $GITHUB_REPOSITORY
+          git config --global user.name $GITHUB_REPOSITORY
+      - name: commit
+        if: contains(github.event.head_commit.message, '[ci skip]') == false && contains(github.ref, 'main')
+        env:
+          JOB_ID: ${{ steps.jobs.outputs.job_id }}
+          HTML_URL: ${{ steps.jobs.outputs.html_url }}
+        run: |
+          git add .
+          git commit --allow-empty -m "[ci skip] $JOB_ID
+          $HTML_URL"
+          git remote -v
+          git remote add github git@github.com:$GITHUB_REPOSITORY.git
+          git push github main

@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024-2025, Gabriel S. Gerlero
+# This file is distributed under the same license as the foamlib package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: foamlib\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-12 05:41+0000\n"
+"PO-Revision-Date: 2025-10-12 05:41+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../foamlib/docs/postprocessing.rst:2
+msgid "👓 Post-processing (:py:mod:`foamlib.postprocessing`)"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:4
+msgid ""
+"*Functionality contributed by* `Henning Scheufler "
+"<https://github.com/HenningScheufler>`_."
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:6
+msgid ""
+"Analyzing large parametric studies can be cumbersome, especially when "
+"dealing with numerous cases and parameters. To facilitate this process, "
+"**foamlib** provides a post-processing module that allows users to analyze "
+"and visualize the results of their parametric studies efficiently."
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:8
+msgid ""
+"The general concept is that the post-processing cases are all located in the"
+" same folder and with the following structure:"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:10
+msgid "cases"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:11
+msgid "case1"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:12
+#: ../../foamlib/docs/postprocessing.rst:16
+msgid "postProcessing"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:13
+#: ../../foamlib/docs/postprocessing.rst:17
+msgid "function object 1"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:14
+#: ../../foamlib/docs/postprocessing.rst:18
+msgid "function object 2"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:15
+msgid "case2"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:20
+msgid ""
+"The post-processing module can be used to extract data from the post-"
+"processing files and visualize it in a user-friendly manner."
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:22
+msgid ""
+"The main idea is to gather all the post-processing files from different "
+"cases into a single dataframe that stores the data in a long format. This "
+"allows for easy manipulation and visualization of the data using libraries "
+"like seaborn, plotly.express or altair or numerous other plotting libraries."
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:25
+msgid "Installing extra dependencies"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:27
+msgid ""
+"To use the post-processing functionality, you need to install the extra "
+"dependencies for the :mod:`foamlib.postprocessing` module. You can do this "
+"by running the following command: ::"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:32
+msgid "Time series data"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:46
+msgid ""
+"The following example would load all the force.dat files from the post-"
+"processing folder of each case in the Cases directory and save the results "
+"in a CSV file. The resulting dataframe will have columns for the case name, "
+"time, and force components (fx, fy, fz, ..) and the case category specified "
+"in the case.json file that gets automatically generated when creating a case"
+" with the :mod:`foamlib.preprocessing` module."
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:48
+msgid ""
+"The OutputFile class is used to specify the file name and folder where the "
+"post-processing files are located, where the general syntax in OpenFOAM is "
+"as followed:"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:54
+msgid ""
+"Only the folder and file_name are required, the timeName is optional and can"
+" be used to specify a specific time folder. If not specified, the post-"
+"processing module will look for the file in all time folders."
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:57
+msgid "List output files"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:59
+msgid ""
+"The `list_outputfiles` function can be used to list all the output files in "
+"a given directory, and the `load_tables` function can be used to load the "
+"data from the output files into a dataframe. The resulting dataframe will "
+"have columns for the case name, time, and force components (fx, fy, fz, ..) "
+"and the case category specified in the case.json file that gets "
+"automatically generated when creating a case with the "
+":mod:`foamlib.preprocessing` module."
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:71
+msgid "Spatial data (surfaces, sets, ...)"
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:74
+msgid ""
+"The post-processing module also supports loading spatial data from OpenFOAM "
+"cases, such as surface data or sets. OpenFOAM stores for each time name a "
+"new file with the same name that contains the spatial data. These data can "
+"be loaded into a dataframe using the `load_tables` function, which will "
+"automatically handle the parsing of the data and return it in a long format."
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:76
+msgid ""
+"However, the resulting dataframe may contain a lot of data, so these "
+"dataframe can be filtered with a custom function that return a filtered "
+"dataframe."
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:102
+msgid ""
+"Generally, the `load_tables` functions should be stored in a separate file "
+"and the resulting tables should be written to disk as e.g., CSV, feather, or"
+" other formats. The post-processing module can then be used to load the data"
+" from the files and visualize it in a user-friendly manner."
+msgstr ""
+
+#: ../../foamlib/docs/postprocessing.rst:104
+msgid ""
+"This allows the implementation of dashboards to quickly explore the data. "
+"Additionally, the table gathering process can be easily auto-generated from "
+"the CLI."
+msgstr ""

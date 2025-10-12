@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the foamlib package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-12 05:41+0000\n"
+"POT-Creation-Date: 2025-10-12 06:07+0000\n"
 "PO-Revision-Date: 2025-10-12 05:41+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +50,7 @@ msgstr ""
 
 #: ../../foamlib/docs/index.rst:18
 msgid "📚 Documentation guide"
-msgstr ""
+msgstr "📚 ドキュメントガイド"
 
 #: ../../foamlib/docs/index.rst:31
 msgid "🔍 Indices and search"

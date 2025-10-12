@@ -1,5 +1,5 @@
 foamlib[preprocessing,postprocessing] @ git+https://github.com/gerlero/foamlib.git
 sphinx>=5,<9
+sphinx-intl[transifex]==2.3.1
 sphinx_rtd_theme
 sphinxcontrib-mermaid
-sphinx-intl[transifex]==2.3.1

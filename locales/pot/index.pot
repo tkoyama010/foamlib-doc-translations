@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024-2025, Gabriel S. Gerlero
+# This file is distributed under the same license as the foamlib package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: foamlib \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-12 06:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../foamlib/docs/index.rst:1
+msgid "foamlib logo"
+msgstr ""
+
+#: ../../foamlib/docs/index.rst:9
+msgid "**foamlib** is a modern Python package that simplifies working with OpenFOAM cases and files by providing a standalone parser for seamless interaction with OpenFOAM's input/output data. It includes robust case-handling capabilities that reduce boilerplate code and enable efficient pre-processing, post-processing, and simulation management directly from Python."
+msgstr ""
+
+#: ../../foamlib/docs/index.rst:11
+msgid "With support for ASCII- and binary-formatted fields, a fully type-hinted API, and asynchronous operations, **foamlib** offers a streamlined, Pythonic approach to automating and managing OpenFOAM workflows."
+msgstr ""
+
+#: ../../foamlib/docs/index.rst:14
+msgid "**foamlib** is published in the Journal of Open Source Software (JOSS). `Read the paper <https://doi.org/10.21105/joss.07633>`_ for more details about the design and implementation."
+msgstr ""
+
+#: ../../foamlib/docs/index.rst:18
+msgid "📚 Documentation guide"
+msgstr ""
+
+#: ../../foamlib/docs/index.rst:31
+msgid "🔍 Indices and search"
+msgstr ""
+
+#: ../../foamlib/docs/index.rst:33
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../foamlib/docs/index.rst:34
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../foamlib/docs/index.rst:35
+msgid ":ref:`search`"
+msgstr ""

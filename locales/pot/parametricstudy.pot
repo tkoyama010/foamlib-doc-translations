@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024-2025, Gabriel S. Gerlero
+# This file is distributed under the same license as the foamlib package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: foamlib \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-12 06:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../foamlib/docs/parametricstudy.rst:2
+msgid "🗃️ Parametric study (:py:mod:`foamlib.preprocessing`)"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:4
+msgid "*Functionality contributed by* `Henning Scheufler <https://github.com/HenningScheufler>`_."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:6
+msgid "This functionality allows users to set up and run a parametric study in OpenFOAM, where multiple simulations are executed with varying parameters to analyze their effects on the results. The study can be configured to modify specific fields or solver settings across different runs."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:9
+msgid "Installing extra dependencies"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:11
+msgid "To use the parametric study functionality, you need to install the extra dependencies for the :mod:`foamlib.preprocessing` module. You can do this by running the following command: ::"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:16
+msgid "Overview"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:18
+msgid "The general workflow for a parametric study in OpenFOAM using **foamlib** is as follows:"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:28
+msgid "A template case is created with the necessary configuration files. The user can then generate multiple case variants by modifying specific parameters, such as initial conditions, boundary conditions, or solver settings. Each variant is run independently, and the results are collected for post-processing and analysis."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:32
+msgid "The general concept of the parametric study is that template cases are copied to a new folder, and the parameters are modified in the copied case. This requires the definition of the following parameters:"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:34
+msgid "template_case: The path to the template case that will be copied and modified."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:35
+msgid "output_folder: The folder where the modified cases will be stored."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:36
+msgid "case_name: The name of the case that will be created."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:37
+msgid "instructions: A list of the file and the key entry that needs to be modified in the template case."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:38
+msgid "value: the value for each instruction"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:39
+msgid "case category: A category for the case, which can be used to group cases together for easier post-processing."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:42
+msgid "Multiple parammetric study generators are avaible and describe below in detail."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:45
+msgid "CSV Generator"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:47
+msgid "The csv generator create the parametric study based on a CSV file that contains the parameters to be varied. This generator reads the CSV file, extracts the parameters, and generates multiple case variants by modifying the specified fields in the template case."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:60
+msgid "This simple generator specifies the above requirements in the csv file, where the instruction (file and key name (here: NX,NY and someModel)) is defined in the `system/simulationParameters` file. The case_name  and the category will be defined as additional columns in the CSV file."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:90
+msgid "The file can be included in every OpenFOAM dictionary by adding the following line and can be referenced with a dollar sign in the dictionary:"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:102
+msgid "The csv file needs to be contain a case_name column and the parameters to be varied. Additionally, columns can be specified to categorize the cases: `Resolution`, and `Model`. The generator will create a case for each row in the CSV file. This is necessary to simplify the post-processing. The csv file should look like this:"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:106
+msgid "case_name"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:106
+msgid "NX"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:106
+msgid "NY"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:106
+msgid "someModel"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:106
+msgid "Resolution"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:106
+msgid "Model"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:108
+msgid "case_001"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:108
+msgid "100"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:108
+msgid "200"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:108
+msgid "modelA"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:108
+msgid "coarse"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:108
+msgid "k-epsilon"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:109
+msgid "case_002"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:109
+msgid "150"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:109
+msgid "300"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:109
+msgid "modelB"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:109
+msgid "fine"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:109
+msgid "Spalart-Allmaras"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:114
+msgid "Grid Parameter sweep"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:116
+msgid "The grid parameter sweep generator allows users to define a set of parameters and creates all combinations of these parameters to generate multiple cases. In the example below, the grid resolution and initial height are varied across multiple cases."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:119
+msgid "The most important class for the grid generator is the `GridParameter`. This class encapsulates both the `FoamDictInstruction` and the `CaseParameter`. The `FoamDictInstruction` class is used to specify which files and keys in the OpenFOAM case should be modified."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:160
+msgid "The modify_dict variable stores the instructions for the OpenFOAM dictionary that will be modified. The `keys` parameter specifies the keys in the dictionary that will be modified. The `parameters` variable stores the parameters that will be used to modify the keys in the dictionary. Each `CaseParameter` contains a name and a list of values that will be used to modify the keys in the dictionary."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:195
+msgid "This code creates a parametric study that varies the grid resolution and initial height across multiple cases. The `grid_generator` function takes a list of `GridParameter` objects, which define the parameters to be varied, and generates all combinations of these parameters to create multiple cases. So, 3 times 3 cases will be generated, resulting in 9 cases in total. Each case will have a unique name based on the parameters used."
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:198
+msgid "Convenience Functions for FoamDictInstruction"
+msgstr ""
+
+#: ../../foamlib/docs/parametricstudy.rst:200
+msgid "This section provides a reference to all functions available in the `foamlib.preprocessing.system` module."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.controlDict:1
+msgid "Alias for :func:`control_dict`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.controlDict:3
+msgid "Deprecated since version 1.3.0: use :func:`control_dict` instead."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.control_dict:1
+msgid "Return the FoamDictInstruction for controlDict."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.fvSchemes:1
+msgid "Alias for :func:`fv_schemes`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.fvSchemes:3
+msgid "Deprecated since version 1.3.0: use :func:`fv_schemes` instead."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.fvSolution:1
+msgid "Alias for :func:`fv_solution`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.fvSolution:3
+msgid "Deprecated since version 1.3.0: use :func:`fv_solution` instead."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.fv_schemes:1
+msgid "Return the FoamDictInstruction for fvSchemes."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.fv_solution:1
+msgid "Return the FoamDictInstruction for fvSolution."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.simulationParameters:1
+msgid "Alias for :func:`simulation_parameters`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.simulationParameters:3
+msgid "Deprecated since version 1.3.0: use :func:`simulation_parameters` instead."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/preprocessing/system.py:docstring of foamlib.preprocessing.system.simulation_parameters:1
+msgid "Return the FoamDictInstruction for simulationParameters."
+msgstr ""

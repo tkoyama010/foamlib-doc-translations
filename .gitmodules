@@ -1,0 +1,3 @@
+[submodule "foamlib"]
+	path = foamlib
+	url = https://github.com/gerlero/foamlib.git

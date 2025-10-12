@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024-2025, Gabriel S. Gerlero
+# This file is distributed under the same license as the foamlib package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: foamlib \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-12 06:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../foamlib/docs/example.rst:2
+msgid "▶️ Example"
+msgstr ""
+
+#: ../../foamlib/docs/example.rst:4
+msgid "This example script sets up and runs a validation test case for the ``scalarTransportFoam`` solver, verifying the diffusion of a scalar field in a simplified 2D domain."
+msgstr ""
+
+#: ../../foamlib/docs/example.rst:7
+msgid "Overview"
+msgstr ""
+
+#: ../../foamlib/docs/example.rst:9
+msgid "Creates a clean OpenFOAM case in the ``diffusionCheck`` subdirectory."
+msgstr ""
+
+#: ../../foamlib/docs/example.rst:10
+msgid "Configures mesh geometry, solver settings, and initial/boundary conditions for scalar (``T``) and velocity (``U``) fields."
+msgstr ""
+
+#: ../../foamlib/docs/example.rst:11
+msgid "Simulates a velocity-driven scalar transport where a temperature gradient is imposed across the inlet."
+msgstr ""
+
+#: ../../foamlib/docs/example.rst:12
+msgid "Uses :class:`foamlib.FoamCase` and related utilities to manage OpenFOAM input files and execution."
+msgstr ""
+
+#: ../../foamlib/docs/example.rst:13
+msgid "Computes an analytical solution using the complementary error function (:func:`scipy.special.erfc`) and compares it against numerical results."
+msgstr ""
+
+#: ../../foamlib/docs/example.rst:16
+msgid "Code"
+msgstr ""

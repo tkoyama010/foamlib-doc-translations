@@ -43,7 +43,7 @@ Key points:
 
 ## How to add a new language translation
 
-1.  Add new language to `locale/update.sh`:
+1.  Add new language to `locales/update.sh`:
 
 ```diff
 -   rm -R es ja
@@ -55,7 +55,7 @@ Key points:
 2.  Update po files:
 
 ```
-sh ./locale/update.sh
+sh ./locales/update.sh
 ```
 
 3.  Commit them

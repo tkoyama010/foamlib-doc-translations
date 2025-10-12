@@ -8,7 +8,7 @@ build:
     pre_install:
       - git submodule update --init --recursive
     post_install:
-      - cp -a locale foamlib/docs/
+      - cp -a locales foamlib/docs/
 
 python:
   install:

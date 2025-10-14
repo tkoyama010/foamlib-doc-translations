@@ -239,14 +239,14 @@ msgstr ""
 msgid ""
 "Return the number of top-level keywords in the FoamFile (excluding the "
 "FoamFile header if present)."
-msgstr ""
+msgstr "FoamFile 内のトップレベルのキーワードの数を返します（存在する場合は FoamFile ヘッダーを除きます）。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile.__iter__:1
 msgid ""
 "Iterate over the top-level keys in the FoamFile (excluding the FoamFile "
 "header if present)."
-msgstr ""
+msgstr "FoamFile 内のトップレベルキーを反復処理します（存在する場合は FoamFile ヘッダーを除きます）。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile.keys:1
@@ -542,7 +542,7 @@ msgstr ""
 
 #: ../../foamlib/docs/files.rst:94
 msgid "Additional types"
-msgstr ""
+msgstr "追加の型"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
 #: of foamlib._files.types.Dimensioned:1

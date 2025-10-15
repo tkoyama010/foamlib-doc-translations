@@ -40,32 +40,33 @@ msgstr "概要"
 
 #: ../../foamlib/docs/example.rst:9
 msgid "Creates a clean OpenFOAM case in the ``diffusionCheck`` subdirectory."
-msgstr ""
+msgstr "``diffusionCheck`` サブディレクトリ内にクリーンな OpenFOAM ケースを作成します。"
 
 #: ../../foamlib/docs/example.rst:10
 msgid ""
 "Configures mesh geometry, solver settings, and initial/boundary conditions "
 "for scalar (``T``) and velocity (``U``) fields."
-msgstr ""
+msgstr "スカラー場 (``T``) および速度場 (``U``) に対するメッシュ形状、ソルバー設定、初期条件／境界条件を構成します。"
 
 #: ../../foamlib/docs/example.rst:11
 msgid ""
 "Simulates a velocity-driven scalar transport where a temperature gradient is"
 " imposed across the inlet."
-msgstr ""
+msgstr "入口に温度勾配を与えた、速度駆動型のスカラー輸送をシミュレーションします。"
 
 #: ../../foamlib/docs/example.rst:12
 msgid ""
 "Uses :class:`foamlib.FoamCase` and related utilities to manage OpenFOAM "
 "input files and execution."
 msgstr ""
+":class:`foamlib.FoamCase` および関連ユーティリティを使用して、OpenFOAM の入力ファイルと実行を管理します。"
 
 #: ../../foamlib/docs/example.rst:13
 msgid ""
 "Computes an analytical solution using the complementary error function "
 "(:func:`scipy.special.erfc`) and compares it against numerical results."
-msgstr ""
+msgstr "相補誤差関数 (:func:`scipy.special.erfc`) を用いて解析解を計算し、数値結果と比較します。"
 
 #: ../../foamlib/docs/example.rst:16
 msgid "Code"
-msgstr ""
+msgstr "コード"

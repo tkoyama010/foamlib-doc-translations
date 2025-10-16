@@ -89,10 +89,12 @@ msgid ""
 "``with`` block) to make multiple changes to the file while saving any and "
 "all changes only once at the end."
 msgstr ""
+":class:`FoamFile` をコンテキストマネージャー（つまり ``with`` "
+"ブロック内）として使用することもできます。これにより、ファイルに対して複数の変更を行いながら、すべての変更を最後に一度だけ保存することができます。"
 
 #: ../../foamlib/docs/files.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "パラメータ"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFieldFile:10
@@ -103,6 +105,8 @@ msgid ""
 "the first change is made. However, if an attempt is made to access entries "
 "in a non-existent file, a :class:`FileNotFoundError` will be raised."
 msgstr ""
+"ファイルへのパス。ファイルが存在しない場合でも、最初の変更が行われた時点で自動的に作成されます。ただし、存在しないファイル内のエントリにアクセスしようとした場合は、"
+" :class:`FileNotFoundError` が発生します。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFieldFile:14
@@ -111,7 +115,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile.SubDict:10
 msgid "Example usage: ::"
-msgstr ""
+msgstr "使用例: ::"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFieldFile:23
@@ -120,27 +124,27 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile.SubDict:18
 msgid "or (better): ::"
-msgstr ""
+msgstr "または（より良い）: ::"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFile.version:1
 msgid "Alias of ``self[\"FoamFile\"][\"version\"]``."
-msgstr ""
+msgstr "``self[\"FoamFile\"][\"version\"]`` の別名。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFile.format:1
 msgid "Alias of ``self[\"FoamFile\"][\"format\"]``."
-msgstr ""
+msgstr "``self[\"FoamFile\"][\"format\"]`` の別名。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFile.class_:1
 msgid "Alias of ``self[\"FoamFile\"][\"class\"]``."
-msgstr ""
+msgstr "``self[\"FoamFile\"][\"class\"]`` の別名。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFile.location:1
 msgid "Alias of ``self[\"FoamFile\"][\"location\"]``."
-msgstr ""
+msgstr "``self[\"FoamFile\"][\"location\"]`` の別名。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFile.object_:1

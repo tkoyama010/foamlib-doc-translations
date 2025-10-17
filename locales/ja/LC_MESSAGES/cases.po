@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-12 05:41+0000\n"
+"POT-Creation-Date: 2025-10-17 00:06+0000\n"
 "PO-Revision-Date: 2025-10-12 05:41+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -21,18 +21,18 @@ msgstr ""
 msgid "📁 Case manipulation"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase:1
 msgid ""
 "Bases: :py:class:`~collections.abc.Sequence`\\ [FoamCaseBase.TimeDirectory]"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase:1
 msgid "Base class for OpenFOAM cases."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase:3
 msgid ""
 "Provides methods for accessing files and time directories in the case, but "
@@ -41,7 +41,7 @@ msgid ""
 "this class."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase:7
 msgid ""
 "Access the time directories of the case as a sequence, e.g. ``case[0]`` or "
@@ -49,254 +49,254 @@ msgid ""
 msgstr ""
 
 #: ../../foamlib/docs/cases.rst:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clone:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.copy:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clone:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.copy:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase:9
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase:9
 msgid ""
 "The path to the case directory. Defaults to the current working directory."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.name:1
 msgid "The name of the case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.control_dict:1
 msgid "The controlDict file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.block_mesh_dict:1
 msgid "The blockMeshDict file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.decompose_par_dict:1
 msgid "The decomposeParDict file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.fv_schemes:1
 msgid "The fvSchemes file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.fv_solution:1
 msgid "The fvSolution file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.transport_properties:1
 msgid "The transportProperties file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.turbulence_properties:1
 msgid "The turbulenceProperties file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.application:1
 msgid "The application name."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.file:1
 msgid "Return a :class:`FoamFile` object for the given path in the case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.__getitem__:1
 msgid ""
 "Return the time directory at the given index (``int``), indices (``slice``),"
 " name (``str``), or time (``float``)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.__iter__:1
 msgid "Return an iterator over the time directories in the case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.__contains__:1
 msgid ""
 "Return ``True`` if the given time directory, name, or time exists in the "
 "case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.__len__:1
 msgid "Return the number of time directories in the case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.__delitem__:1
 msgid ""
 "Delete the time directory at the given index (``int``), name (``str``), or "
 "time (``float``)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory:1
 msgid ""
 "Bases: :py:class:`~collections.abc.Set`\\ "
 "[:py:class:`~foamlib._files.files.FoamFieldFile`]"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory:1
 msgid "A time directory in an OpenFOAM case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory:3
 msgid ""
 "Use to access field files in the directory (e.g. ``time[\"U\"]``). These "
 "will be returned as :class:`FoamFieldFile` objects."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory:6
 msgid ""
 "It also behaves as a set of :class:`FoamFieldFile` objects (e.g. it can be "
 "iterated over with ``for field in time: ...``)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.TimeDirectory.name:1
 msgid "The name of this time directory (the time as a string)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib.FoamCaseBase.TimeDirectory.time:1
 msgid "The time that corresponds to this directory, as a float."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory.__getitem__:1
 msgid "Return the field file with the given name in this time directory."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory.__iter__:1
 msgid "Return an iterator over the field files in this time directory."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory.__contains__:1
 msgid ""
 "Return ``True`` if the given field file or name exists in this time "
 "directory."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory.__len__:1
 msgid "Return the number of field files in this time directory."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory.__delitem__:1
 msgid "Delete the field file with the given name in this time directory."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase:1
 msgid "Bases: :py:class:`~foamlib._cases._run.FoamCaseRunBase`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase:1
 msgid "An OpenFOAM case with synchronous execution capabilities."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase:3
 msgid ""
 "Extends :class:`FoamCaseBase` to provide methods for running and cleaning "
 "cases, as well as accessing files."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase:6
 msgid ""
 "Access the time directories of the case as a sequence, e.g. ``case[0]`` or "
 "``case[-1]``. These will return :class:`FoamCase.TimeDirectory` objects."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase:12
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clone:13
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.copy:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase:12
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clone:13
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.copy:10
 msgid "Example usage: ::"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.TimeDirectory:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.TimeDirectory:1
 msgid "Bases: :py:class:`~foamlib._cases._run.FoamCaseRunBase.TimeDirectory`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.TimeDirectory.cell_centers:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.TimeDirectory.cell_centers:1
 msgid "Write and return the cell centers."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.TimeDirectory.cell_centers:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.TimeDirectory.cell_centers:3
 msgid ""
 "Currently only works for reconstructed cases (decomposed cases will need to "
 "be reconstructed first)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.block_mesh:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.block_mesh:1
 msgid "Run blockMesh on this case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clean:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clean:1
 msgid "Clean this case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clean:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clean:3
 msgid ""
 "If a ``clean`` or ``Allclean`` script is present in the case directory, it "
@@ -304,190 +304,190 @@ msgid ""
 "rules:"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clean:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clean:6
 msgid "All time directories except ``0`` will be deleted."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clean:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clean:8
 msgid "The ``0`` time directory will be deleted if ``0.orig`` exists."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clean:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clean:10
 msgid ""
 "``processor*`` directories will be deleted if a ``system/decomposeParDict`` "
 "file is present."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clean:12
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clean:12
 msgid ""
 "``constant/polyMesh`` will be deleted if a ``system/blockMeshDict`` file is "
 "present."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clean:14
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clean:14
 msgid "All ``log.*`` files will be deleted."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clean:16
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clean:16
 msgid ""
 "If this behavior is not appropriate for a case, it is recommended to write a"
 " custom ``clean`` script."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clean:19
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clean:19
 msgid ""
 "If True, raise a :class:`CalledProcessError` if the clean script returns a "
 "non-zero exit code."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clone:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clone:1
 msgid "Clone this case (make a clean copy)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clone:3
 msgid ""
 "This is equivalent to running ``self.copy().clean()``, but it can be more "
 "efficient in cases that do not contain custom clean scripts."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clone:6
 msgid ""
 "If used as a context manager (i.e., within a ``with`` block) the cloned copy"
 " will be deleted automatically when exiting the block."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clone:9
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clone:9
 msgid ""
 "The destination path. If ``None``, clone to a new directory in "
 "``$FOAM_RUN/foamlib``."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clone:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.copy:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clone:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.copy:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clone:11
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.clone:11
 msgid "The clone of the case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.copy:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.copy:1
 msgid "Make a copy of this case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.copy:3
 msgid ""
 "If used as a context manager (i.e., within a ``with`` block) the copy will "
 "be deleted automatically when exiting the block."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.copy:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.copy:6
 msgid ""
 "The destination path. If ``None``, copy to a new directory in "
 "``$FOAM_RUN/foamlib``."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.copy:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.copy:8
 msgid "The copy of the case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.decompose_par:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.decompose_par:1
 msgid "Decompose this case for parallel running."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.reconstruct_par:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.reconstruct_par:1
 msgid "Reconstruct this case after parallel running."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.restore_0_dir:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.restore_0_dir:1
 msgid "Restore the 0 directory from the 0.orig directory."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase.run:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:1
 msgid "Run this case, or a specified command in the context of this case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:3
 msgid ""
 "If ``cmd`` is given, this method will run the given command in the context "
 "of the case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:5
 msgid ""
 "If ``cmd`` is ``None``, a series of heuristic rules will be used to run the "
 "case. This works as follows:"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:8
 msgid ""
 "If a ``run``, ``Allrun`` or ``Allrun-parallel`` script is present in the "
@@ -496,34 +496,34 @@ msgid ""
 " are present and :param:`parallel` is ``None``, an error will be raised."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:13
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:13
 msgid ""
 "If no run script is present but an ``Allrun.pre`` script exists, it will be "
 "invoked."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:15
 msgid ""
 "Otherwise, if a ``system/blockMeshDict`` file is present, the method will "
 "call :meth:`block_mesh()`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:18
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:18
 msgid ""
 "Then, if a ``0.orig`` directory is present, it will call "
 ":meth:`restore_0_dir()`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:20
 msgid ""
 "Then, if the case is to be run in parallel (see the :param:`parallel` "
@@ -532,27 +532,27 @@ msgid ""
 ":meth:`decompose_par()`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:24
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:24
 msgid ""
 "Then, it will run the case using the application specified in the "
 "`controlDict` file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:26
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:26
 msgid ""
 "If this behavior is not appropriate for a case, it is recommended to write a"
 " custom ``run``, ``Allrun``, ``Allrun-parallel`` or ``Allrun.pre`` script."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:29
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:29
 msgid ""
 "The command to run. If ``None``, run the case. If a sequence, the first "
@@ -560,48 +560,48 @@ msgid ""
 "executed in a shell."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:31
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:31
 msgid ""
 "If ``True``, run in parallel using MPI. If None, autodetect whether to run "
 "in parallel."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:33
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:33
 msgid "The number of CPUs to use. If ``None``, autodetect from to the case."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:34
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase.run:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:34
 msgid ""
 "If ``True``, raise a :class:`CalledProcessError` if any command returns a "
 "non-zero exit code."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:36
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.run:36
 msgid ""
 "If ``True``, log the command output to ``log.*`` files in the case "
 "directory."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase:1
 msgid "An OpenFOAM case with asynchronous execution capabilities."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase:3
 msgid ""
 "Extends :class:`FoamCaseBase` with methods for running and cleaning cases "
@@ -609,7 +609,7 @@ msgid ""
 "execution of multiple cases."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase:6
 msgid ""
 "Access the time directories of the case as a sequence, e.g. ``case[0]`` or "
@@ -617,28 +617,28 @@ msgid ""
 "objects."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clone:3
 msgid ""
 "This is equivalent to running ``(await self.copy()).clean()``, but it can be"
 " more efficient in cases that do not contain custom clean scripts."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.clone:6
 msgid ""
 "If used as an asynchronous context manager (i.e., within an ``async with`` "
 "block) the cloned copy will be deleted automatically when exiting the block."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.copy:3
 msgid ""
 "If used as an asynchronous context manager (i.e., within an ``async with`` "
 "block) the copy will be deleted automatically when exiting the block."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.map:1
 msgid "Run an async function on each element of an iterable concurrently."
 msgstr ""
@@ -653,7 +653,7 @@ msgstr ""
 msgid "Defaults to the number of CPUs on the system."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:8
 msgid ""
 "If a ``run``, ``Allrun`` or ``Allrun-parallel`` script is present in the "
@@ -662,7 +662,7 @@ msgid ""
 " are present and ``parallel`` is ``None``, an error will be raised."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.pydocstring
 #: of foamlib._cases.async_.AsyncFoamCase.run:20
 msgid ""
 "Then, if the case is to be run in parallel (see the ``parallel`` option) and"
@@ -670,17 +670,17 @@ msgid ""
 "is present, it will call :meth:`decompose_par()`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase:1
 msgid "Bases: :py:class:`~foamlib._cases.async_.AsyncFoamCase`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase:1
 msgid "An asynchronous OpenFOAM case that launches jobs on a Slurm cluster."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase:3
 msgid ""
 ":class:`AsyncSlurmFoamCase` is a subclass of :class:`AsyncFoamCase`. It "
@@ -689,7 +689,7 @@ msgid ""
 " running a case or command."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase.run:3
 msgid ""
 "The command to run. If ``None``, run the case. If a sequence, the first "
@@ -697,26 +697,26 @@ msgid ""
 "executed in a shell."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase.run:4
 msgid ""
 "If ``True``, run in parallel using MPI. If ``None``, autodetect whether to "
 "run in parallel."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase.run:5
 msgid ""
 "The number of CPUs to use. If ``None``, autodetect according to the case. If"
 " ``0``, run locally."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase.run:7
 msgid "If ``True``, log the command output to a file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.pydocstring
 #: of foamlib._cases.slurm.AsyncSlurmFoamCase.run:8
 msgid ""
 "If ``True``, fall back to running the command locally if Slurm is not "

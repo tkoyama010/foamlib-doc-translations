@@ -149,7 +149,7 @@ msgstr "``self[\"FoamFile\"][\"location\"]`` の別名。"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFile.object_:1
 msgid "Alias of ``self[\"FoamFile\"][\"object\"]``."
-msgstr ""
+msgstr "``self[\"FoamFile\"][\"object\"]`` の別名。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
 #: of multicollections.abc.MultiMapping.__getitem__:1
@@ -508,17 +508,17 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFieldFile.internal_field:1
 msgid "Alias of ``self[\"internalField\"]``."
-msgstr ""
+msgstr "``self[\"internalField\"]`` の別名。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFieldFile.boundary_field:1
 msgid "Alias of ``self[\"boundaryField\"]``."
-msgstr ""
+msgstr "``self[\"boundaryField\"]`` の別名。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFieldFile.dimensions:1
 msgid "Alias of ``self[\"dimensions\"]``."
-msgstr ""
+msgstr "``self[\"dimensions\"]`` の別名。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFieldFile.BoundariesSubDict:1
@@ -537,12 +537,12 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFieldFile.BoundarySubDict.value:1
 msgid "Alias of ``self[\"value\"]``."
-msgstr ""
+msgstr "``self[\"value\"]`` の別名。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib.FoamFieldFile.BoundarySubDict.type:1
 msgid "Alias of ``self[\"type\"]``."
-msgstr ""
+msgstr "``self[\"type\"]`` の別名。"
 
 #: ../../foamlib/docs/files.rst:94
 msgid "Additional types"
@@ -551,7 +551,7 @@ msgstr "追加の型"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
 #: of foamlib._files.types.Dimensioned:1
 msgid "A numerical value with associated physical dimensions."
-msgstr ""
+msgstr "物理的次元を伴う数値。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
 #: of foamlib._files.types.Dimensioned:3
@@ -585,7 +585,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
 #: of foamlib._files.types.DimensionSet:1
 msgid "Set of physical dimensions represented as powers of base SI units."
-msgstr ""
+msgstr "SI基本単位の累乗で表される物理的次元の集合。"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/types.pydocstring
 #: of foamlib._files.types.DimensionSet:3

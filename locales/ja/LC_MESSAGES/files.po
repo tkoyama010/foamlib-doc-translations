@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-01 00:08+0000\n"
+"POT-Creation-Date: 2025-12-06 00:06+0000\n"
 "PO-Revision-Date: 2025-10-12 05:41+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
@@ -28,13 +28,11 @@ msgstr "📄 ファイル操作"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile:1
 msgid ""
-"Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [str | "
-"tuple[str, ...] | None, Data | StandaloneData | FoamFile.SubDict], "
+"Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ "
+"[:py:class:`str` | :py:class:`tuple`\\ [:py:class:`str`, ...] | "
+":py:obj:`None`, Data | StandaloneData | FoamFile.SubDict | None], "
 ":py:class:`~foamlib._files._io.FoamFileIO`"
 msgstr ""
-"Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [str | "
-"tuple[str, ...] | None, Data | StandaloneData | FoamFile.SubDict], "
-":py:class:`~foamlib._files._io.FoamFileIO`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile:1
@@ -396,7 +394,7 @@ msgstr ""
 #: of foamlib._files.files.FoamFile.SubDict:1
 msgid ""
 "Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ "
-"[:py:class:`str`, Data | FoamFile.SubDict]"
+"[:py:class:`str`, Data | FoamFile.SubDict | None]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring

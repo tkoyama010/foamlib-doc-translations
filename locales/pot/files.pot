@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-01 00:08+0000\n"
+"POT-Creation-Date: 2025-12-06 00:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "📄 File manipulation"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile:1
-msgid "Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [str | tuple[str, ...] | None, Data | StandaloneData | FoamFile.SubDict], :py:class:`~foamlib._files._io.FoamFileIO`"
+msgid "Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [:py:class:`str` | :py:class:`tuple`\\ [:py:class:`str`, ...] | :py:obj:`None`, Data | StandaloneData | FoamFile.SubDict | None], :py:class:`~foamlib._files._io.FoamFileIO`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile:1
@@ -250,7 +250,7 @@ msgid "Whether to include the \"FoamFile\" header in the output. If ``True``, a 
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict:1
-msgid "Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [:py:class:`str`, Data | FoamFile.SubDict]"
+msgid "Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [:py:class:`str`, Data | FoamFile.SubDict | None]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict:1

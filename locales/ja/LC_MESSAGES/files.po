@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-06 00:06+0000\n"
+"POT-Creation-Date: 2025-12-08 00:07+0000\n"
 "PO-Revision-Date: 2025-10-12 05:41+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
@@ -149,19 +149,23 @@ msgstr "``self[\"FoamFile\"][\"location\"]`` の別名。"
 msgid "Alias of ``self[\"FoamFile\"][\"object\"]``."
 msgstr "``self[\"FoamFile\"][\"object\"]`` の別名。"
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
-#: of multicollections.abc.MultiMapping.__getitem__:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.__getitem__:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.__getitem__:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
 #: of multicollections.abc.MultiMapping.getone:1
 msgid "Get the first value for a key."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.SubDict.__getitem__:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile.SubDict.popone:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.__getitem__:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile.popone:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
-#: of multicollections.abc.MultiMapping.__getitem__:3
 msgid "Raises a `KeyError` if the key is not found."
 msgstr ""
 

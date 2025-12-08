@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-06 00:06+0000\n"
+"POT-Creation-Date: 2025-12-08 00:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,14 +85,16 @@ msgstr ""
 msgid "Alias of ``self[\"FoamFile\"][\"object\"]``."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.py:docstring of multicollections.abc.MultiMapping.__getitem__:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict.__getitem__:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.__getitem__:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.py:docstring of multicollections.abc.MultiMapping.getone:1
 msgid "Get the first value for a key."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict.__getitem__:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict.popone:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.__getitem__:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.popone:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.py:docstring of multicollections.abc.MultiMapping.__getitem__:3
 msgid "Raises a `KeyError` if the key is not found."
 msgstr ""
 

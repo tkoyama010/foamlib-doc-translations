@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-01 00:08+0000\n"
+"POT-Creation-Date: 2025-12-08 18:47+0000\n"
 "PO-Revision-Date: 2025-10-12 05:41+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase:1
 msgid ""
-"Bases: :py:class:`~collections.abc.Sequence`\\ [FoamCaseBase.TimeDirectory]"
+"Bases: :py:class:`~collections.abc.Sequence`\\ [FoamCaseBase.TimeDirectory],"
+" :py:class:`~os.PathLike`\\ [:py:class:`str`]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring
@@ -157,7 +158,8 @@ msgstr ""
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory:1
 msgid ""
 "Bases: :py:class:`~collections.abc.Set`\\ "
-"[:py:class:`~foamlib._files.files.FoamFieldFile`]"
+"[:py:class:`~foamlib._files.files.FoamFieldFile`], "
+":py:class:`~os.PathLike`\\ [:py:class:`str`]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.pydocstring

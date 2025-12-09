@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-01 00:08+0000\n"
+"POT-Creation-Date: 2025-12-09 00:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "📁 Case manipulation"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.py:docstring of foamlib._cases.base.FoamCaseBase:1
-msgid "Bases: :py:class:`~collections.abc.Sequence`\\ [FoamCaseBase.TimeDirectory]"
+msgid "Bases: :py:class:`~collections.abc.Sequence`\\ [FoamCaseBase.TimeDirectory], :py:class:`~os.PathLike`\\ [:py:class:`str`]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.py:docstring of foamlib._cases.base.FoamCaseBase:1
@@ -112,7 +112,7 @@ msgid "Delete the time directory at the given index (``int``), name (``str``), o
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.py:docstring of foamlib._cases.base.FoamCaseBase.TimeDirectory:1
-msgid "Bases: :py:class:`~collections.abc.Set`\\ [:py:class:`~foamlib._files.files.FoamFieldFile`]"
+msgid "Bases: :py:class:`~collections.abc.Set`\\ [:py:class:`~foamlib._files.files.FoamFieldFile`], :py:class:`~os.PathLike`\\ [:py:class:`str`]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/base.py:docstring of foamlib._cases.base.FoamCaseBase.TimeDirectory:1

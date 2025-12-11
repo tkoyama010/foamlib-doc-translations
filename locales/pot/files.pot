@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-09 00:06+0000\n"
+"POT-Creation-Date: 2025-12-11 00:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "📄 File manipulation"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile:1
-msgid "Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [:py:class:`str` | :py:class:`tuple`\\ [:py:class:`str`, ...] | :py:obj:`None`, Data | StandaloneData | FoamFile.SubDict | None], :py:class:`~os.PathLike`\\ [:py:class:`str`], :py:class:`~foamlib._files._io.FoamFileIO`"
+msgid "Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [:py:class:`str` | :py:obj:`None`, Data | StandaloneData | FoamFile.SubDict | None], :py:class:`~os.PathLike`\\ [:py:class:`str`], :py:class:`~foamlib._files._io.FoamFileIO`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile:1
@@ -87,6 +87,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict.__getitem__:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.__getitem__:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.getone:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.py:docstring of multicollections.abc.MultiMapping.getone:1
 msgid "Get the first value for a key."
 msgstr ""
@@ -117,8 +118,13 @@ msgstr ""
 msgid "Check if the FoamFile contains the given keyword or tuple of keywords."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.get:1
+msgid "D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict.getall:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.getall:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.getone:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.py:docstring of multicollections.abc.MultiMapping.getone:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.py:docstring of multicollections.abc.MutableMultiMapping.popall:3
 msgid "Raises a `KeyError` if the key is not found and no default is provided."

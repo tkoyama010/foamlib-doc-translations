@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-08 18:47+0000\n"
+"POT-Creation-Date: 2025-12-11 00:06+0000\n"
 "PO-Revision-Date: 2025-10-12 05:41+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
@@ -29,9 +29,8 @@ msgstr "📄 ファイル操作"
 #: of foamlib._files.files.FoamFile:1
 msgid ""
 "Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ "
-"[:py:class:`str` | :py:class:`tuple`\\ [:py:class:`str`, ...] | "
-":py:obj:`None`, Data | StandaloneData | FoamFile.SubDict | None], "
-":py:class:`~os.PathLike`\\ [:py:class:`str`], "
+"[:py:class:`str` | :py:obj:`None`, Data | StandaloneData | FoamFile.SubDict "
+"| None], :py:class:`~os.PathLike`\\ [:py:class:`str`], "
 ":py:class:`~foamlib._files._io.FoamFileIO`"
 msgstr ""
 
@@ -154,6 +153,8 @@ msgstr "``self[\"FoamFile\"][\"object\"]`` の別名。"
 #: of foamlib._files.files.FoamFile.SubDict.__getitem__:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile.__getitem__:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.getone:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
 #: of multicollections.abc.MultiMapping.getone:1
 msgid "Get the first value for a key."
@@ -199,9 +200,16 @@ msgid "Check if the FoamFile contains the given keyword or tuple of keywords."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.get:1
+msgid "D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile.SubDict.getall:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
 #: of foamlib._files.files.FoamFile.getall:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/files.pydocstring
+#: of foamlib._files.files.FoamFile.getone:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring
 #: of multicollections.abc.MultiMapping.getone:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/multicollections/abc.pydocstring

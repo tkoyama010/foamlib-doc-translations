@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024-2025, Gabriel S. Gerlero
+# This file is distributed under the same license as the foamlib package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: foamlib \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 00:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../foamlib/docs/typing.rst:2
+msgid "🏷️ Typing (:py:mod:`foamlib.typing`)"
+msgstr ""
+
+#: ../../foamlib/docs/typing.rst:5
+msgid "Standard types"
+msgstr ""
+
+#: ../../foamlib/docs/typing.rst:7
+msgid "The following are aliases of the primary types used throughout **foamlib** to represent the equivalent OpenFOAM data structures."
+msgstr ""
+
+#: ../../foamlib/docs/typing.rst:9
+msgid "For concrete classes in **foamlib** that represent files and some stored data types (like :class:`foamlib.Dimensioned`), see the :class:`foamlib.FoamFile` section."
+msgstr ""
+
+#: ../docstring of foamlib.typing.SubDict:1
+msgid "An OpenFOAM dictionary nested in a file."
+msgstr ""
+
+#: ../docstring of foamlib.typing.Data:1
+msgid "A single OpenFOAM value, or multiple values as a tuple."
+msgstr ""
+
+#: ../docstring of foamlib.typing.StandaloneData:1
+msgid "One or more OpenFOAM values that can appear at the top level of a file."
+msgstr ""
+
+#: ../docstring of foamlib.typing.DataEntry:1
+msgid "A single OpenFOAM value."
+msgstr ""
+
+#: ../docstring of foamlib.typing.StandaloneDataEntry:1
+msgid "A single OpenFOAM value that can appear at the top level of a file."
+msgstr ""
+
+#: ../docstring of builtins.dict:1
+msgid "An OpenFOAM dictionary."
+msgstr ""
+
+#: ../docstring of builtins.tuple:1
+msgid "An OpenFOAM keyword entry (i.e., a key-value pair)."
+msgstr ""
+
+#: ../docstring of foamlib.typing.Field:1
+msgid "An OpenFOAM field of scalars, vectors, symmetric tensors, or full tensors."
+msgstr ""
+
+#: ../docstring of foamlib.typing.Tensor:1
+msgid "An OpenFOAM scalar, vector, symmetric tensor, or full tensor."
+msgstr ""
+
+#: ../../foamlib/docs/typing.rst:24
+msgid "Other accepted types"
+msgstr ""
+
+#: ../../foamlib/docs/typing.rst:26
+msgid "These \"Like\" type variants accept the standard type plus other formats that could potentially be converted to the standard type."
+msgstr ""
+
+#: ../docstring of collections.abc.Mapping:1
+msgid "Any mapping that could be interpreted as a :type:`SubDict`."
+msgstr ""
+
+#: ../docstring of foamlib.typing.DataLike:1
+msgid "Any type that could be interpreted as a :type:`Data`."
+msgstr ""
+
+#: ../docstring of foamlib.typing.StandaloneDataLike:1
+msgid "Any type that could be interpreted as a :type:`StandaloneData`."
+msgstr ""
+
+#: ../docstring of foamlib.typing.DataEntryLike:1
+msgid "Any type that could be interpreted as a :type:`DataEntry`."
+msgstr ""
+
+#: ../docstring of foamlib.typing.StandaloneDataEntryLike:1
+msgid "Any type that could be interpreted as a :type:`StandaloneDataEntry`."
+msgstr ""
+
+#: ../docstring of collections.abc.Mapping:1
+msgid "Any mapping that could be interpreted as a :type:`Dict`."
+msgstr ""
+
+#: ../docstring of builtins.tuple:1
+msgid "Any 2-tuple that could be interpreted as a :type:`KeywordEntry`."
+msgstr ""
+
+#: ../docstring of foamlib.typing.FieldLike:1
+msgid "Any type that could be interpreted as a :type:`Field`."
+msgstr ""
+
+#: ../docstring of foamlib.typing.TensorLike:1
+msgid "Any type that could be interpreted as a :type:`Tensor`."
+msgstr ""

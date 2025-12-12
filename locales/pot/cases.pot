@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-09 00:06+0000\n"
+"POT-Creation-Date: 2025-12-12 00:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,6 +39,9 @@ msgstr ""
 #: ../../foamlib/docs/cases.rst:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.clone:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.copy:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.map:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run_all:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run_all_wait:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.py:docstring of foamlib._cases.sync.FoamCase.clone:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.py:docstring of foamlib._cases.sync.FoamCase.copy:0
 msgid "Parameters"
@@ -175,6 +178,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.clone:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.copy:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.map:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run_all:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run_all_wait:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.py:docstring of foamlib._cases.sync.FoamCase:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.py:docstring of foamlib._cases.sync.FoamCase.clone:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.py:docstring of foamlib._cases.sync.FoamCase.copy:10
@@ -266,6 +272,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.clone:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.copy:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.map:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.py:docstring of foamlib._cases.sync.FoamCase.clone:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/sync.py:docstring of foamlib._cases.sync.FoamCase.copy:0
 msgid "Returns"
@@ -413,6 +420,22 @@ msgstr ""
 msgid "Run an async function on each element of an iterable concurrently."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.map:3
+msgid "Note that if `coro` runs :class:`AsyncFoamCase`s, these will be executed in parallel if possible (this parallelism is automatically limited by the :attr:`max_cpus` attribute in order to avoid oversubscription of available CPUs)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.map:8
+msgid "An async function to run on each element."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.map:9
+msgid "An iterable of arguments to pass to the function."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.map:11
+msgid "An iterable of results from the function."
+msgstr ""
+
 #: ../docstring of foamlib.AsyncFoamCase.max_cpus:1
 msgid "Maximum number of CPUs to use for running instances of :class:`AsyncFoamCase` concurrently."
 msgstr ""
@@ -427,6 +450,24 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run:20
 msgid "Then, if the case is to be run in parallel (see the ``parallel`` option) and no ``processor*`` directories exist but a ``system/decomposeParDict`` file is present, it will call :meth:`decompose_par()`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run_all:1
+msgid "Run multiple cases concurrently."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run_all:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run_all_wait:3
+msgid "Multiple cases will be run in parallel if possible (this parallelism is automatically limited by the :attr:`max_cpus` attribute in order to avoid oversubscription of available CPUs)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run_all:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run_all_wait:7
+msgid "Instances of :class:`AsyncFoamCase` (:meth:`run` will be called) or arbitrary awaitables (will be awaited as-is)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/async_.py:docstring of foamlib._cases.async_.AsyncFoamCase.run_all_wait:1
+msgid "Run multiple cases concurrently, blocking until all are complete."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_cases/slurm.py:docstring of foamlib._cases.slurm.AsyncSlurmFoamCase:1

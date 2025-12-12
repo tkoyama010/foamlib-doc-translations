@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-11 00:06+0000\n"
+"POT-Creation-Date: 2025-12-12 00:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -367,7 +367,7 @@ msgid "Alias of ``self[\"type\"]``."
 msgstr ""
 
 #: ../../foamlib/docs/files.rst:94
-msgid "Additional types"
+msgid "Additional classes"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/types.py:docstring of foamlib._files.types.Dimensioned:1

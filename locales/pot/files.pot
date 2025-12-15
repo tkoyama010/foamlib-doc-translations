@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-14 00:07+0000\n"
+"POT-Creation-Date: 2025-12-15 00:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -305,36 +305,19 @@ msgstr ""
 msgid "Return a nested dict representation of the sub-dictionary."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/_parsing/exceptions.py:docstring of foamlib._files._parsing.exceptions.foamlib.FoamFile.ParseError:1
-msgid "Base class for errors encountered when parsing a FoamFile."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/_parsing/exceptions.py:docstring of foamlib._files._parsing.exceptions.foamlib.FoamFile.ParseSemanticError:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/_parsing/exceptions.py:docstring of foamlib._files._parsing.exceptions.foamlib.FoamFile.ParseSyntaxError:1
-msgid "Bases: :py:class:`~foamlib._files._parsing.exceptions.foamlib.FoamFile.ParseError`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/_parsing/exceptions.py:docstring of foamlib._files._parsing.exceptions.foamlib.FoamFile.ParseSyntaxError:1
-msgid "Error raised when a FoamFile has unexpected syntax."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/_parsing/exceptions.py:docstring of foamlib._files._parsing.exceptions.foamlib.FoamFile.ParseSemanticError:1
-msgid "Error raised when a semantic issue is detected in a FoamFile."
-msgstr ""
-
-#: ../../foamlib/docs/files.rst:75
+#: ../../foamlib/docs/files.rst:66
 msgid "Alias of :class:`Dimensioned` provided for backward compatibility."
 msgstr ""
 
-#: ../../foamlib/docs/files.rst:77
+#: ../../foamlib/docs/files.rst:68
 msgid "Prefer using :class:`foamlib.Dimensioned` directly."
 msgstr ""
 
-#: ../../foamlib/docs/files.rst:81
+#: ../../foamlib/docs/files.rst:72
 msgid "Alias of :class:`DimensionSet` provided for backward compatibility."
 msgstr ""
 
-#: ../../foamlib/docs/files.rst:83
+#: ../../foamlib/docs/files.rst:74
 msgid "Prefer using :class:`foamlib.DimensionSet` directly."
 msgstr ""
 
@@ -383,7 +366,7 @@ msgstr ""
 msgid "Alias of ``self[\"type\"]``."
 msgstr ""
 
-#: ../../foamlib/docs/files.rst:103
+#: ../../foamlib/docs/files.rst:94
 msgid "Additional classes"
 msgstr ""
 
@@ -445,4 +428,12 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/types.py:docstring of foamlib._files.types.DimensionSet:11
 msgid "Power of the luminous intensity dimension."
+msgstr ""
+
+#: ../../foamlib/docs/files.rst:102
+msgid "Exceptions"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/foamlib/_files/_parsing/exceptions.py:docstring of foamlib._files._parsing.exceptions.foamlib.FoamFileDecodeError:1
+msgid "Error raised when a FoamFile cannot be parsed."
 msgstr ""

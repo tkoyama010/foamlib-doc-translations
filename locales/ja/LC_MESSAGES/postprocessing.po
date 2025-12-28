@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../foamlib/docs/postprocessing.rst:2
 msgid "👓 Post-processing (:py:mod:`foamlib.postprocessing`)"
-msgstr ""
+msgstr " ポスト処理 (:py:mod:`foamlib.postprocessing`)"
 
 #: ../../foamlib/docs/postprocessing.rst:4
 msgid ""

@@ -1,8 +1,8 @@
+# foamlib official documentation translations
+
 <div align="center">
 <a href="https://github.com/gerlero/foamlib"><img src="https://github.com/gerlero/foamlib/raw/main/logo.png" height="65"></a>
 </div>
-
-# foamlib official documentation translations
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 

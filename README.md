@@ -1,9 +1,5 @@
 # foamlib official documentation translations
 
-<div align="center">
-<a href="https://github.com/gerlero/foamlib"><img src="https://github.com/gerlero/foamlib/raw/main/logo.png" height="65"></a>
-</div>
-
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
@@ -11,6 +7,10 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Contributor Covenant](https://img.shields.io/badge/contributor%20covenant-2.1-4baaaa.svg)](https://github.com/tkoyama010/foamlib-doc-translations/blob/main/CODE_OF_CONDUCT.md)
+
+<div align="center">
+<a href="https://github.com/gerlero/foamlib"><img src="https://github.com/gerlero/foamlib/raw/main/logo.png" height="65"></a>
+</div>
 
 [foamlib official documentation translations](https://github.com/tkoyama010/foamlib-doc-translations) is a project to provide foamlib official documentation, hosted on
 the Read The Docs platform, in multiple languages.

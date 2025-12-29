@@ -33,6 +33,9 @@ msgid ""
 "boilerplate code and enable efficient pre-processing, post-processing, and "
 "simulation management directly from Python."
 msgstr ""
+"**foamlib** は、OpenFOAM 独自のファイルフォーマットに対応したスタンドアロンのパーサーを提供することで、OpenFOAM "
+"の入出力データの扱いを簡略化するモダンな Python パッケージです。また、堅牢なケース管理機能を備えており、冗長なコードを減らし、Python "
+"から直接効率的に前処理、後処理、シミュレーション管理を行えるようにします。"
 
 #: ../../foamlib/docs/index.rst:11
 msgid ""

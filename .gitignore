@@ -6,5 +6,6 @@ locale/pot/*
 locale/.jupyter_cache/*
 tx
 *.doctree
+.doctrees/
 *.pickle
 node_modules/

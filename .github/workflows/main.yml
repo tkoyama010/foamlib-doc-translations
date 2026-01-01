@@ -19,7 +19,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548
         with:
-          python-version: "3.12"
+          python-version: "3.13"
       - name: Get Job URL
         uses: Tiryoh/gha-jobid-action@be260d8673c9211a84cdcf37794ebd654ba81eef
         id: jobs

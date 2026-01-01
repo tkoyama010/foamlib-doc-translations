@@ -43,7 +43,7 @@ msgstr ""
 msgid ""
 "The general concept is that the post-processing cases are all located in the"
 " same folder and with the following structure:"
-msgstr ""
+msgstr "基本構成として、ポスト処理対象のケースはすべて同一フォルダ内に集約されます。構成の詳細は以下の通りです:"
 
 #: ../../foamlib/docs/postprocessing.rst:10
 msgid "cases"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-01 08:57+0000\n"
+"POT-Creation-Date: 2026-01-13 00:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,6 @@ msgstr ""
 
 #: ../../foamlib/docs/files.rst:2
 msgid "📄 File manipulation"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile:1
-msgid "Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [:py:class:`str` | :py:obj:`None`, Data | StandaloneData | FoamFile.SubDict | None], :py:class:`~os.PathLike`\\ [:py:class:`str`], :py:class:`~foamlib._files._io.FoamFileIO`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile:1
@@ -116,10 +112,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.__contains__:1
 msgid "Check if the FoamFile contains the given keyword or tuple of keywords."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.get:1
-msgid "D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict.getall:3
@@ -258,10 +250,6 @@ msgid "Whether to include the \"FoamFile\" header in the output. If ``True``, a 
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict:1
-msgid "Bases: :py:class:`~multicollections.abc.MutableMultiMapping`\\ [:py:class:`str`, Data | FoamFile.SubDict | None]"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict:1
 msgid "An OpenFOAM sub-dictionary within a file."
 msgstr ""
 
@@ -322,10 +310,6 @@ msgid "Prefer using :class:`foamlib.DimensionSet` directly."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFieldFile:1
-msgid "Bases: :py:class:`~foamlib._files.files.FoamFile`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFieldFile:1
 msgid "Subclass of :class:`FoamFile` for representing OpenFOAM field files specifically."
 msgstr ""
 
@@ -347,11 +331,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib.FoamFieldFile.dimensions:1
 msgid "Alias of ``self[\"dimensions\"]``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFieldFile.BoundariesSubDict:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFieldFile.BoundarySubDict:1
-msgid "Bases: :py:class:`~foamlib._files.files.FoamFile.SubDict`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFieldFile.BoundarySubDict:1

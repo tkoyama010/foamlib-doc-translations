@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-01 08:56+0000\n"
+"POT-Creation-Date: 2026-01-12 18:37+0000\n"
 "PO-Revision-Date: 2025-10-12 05:41+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -19,13 +19,6 @@ msgstr ""
 
 #: ../../foamlib/docs/cases.rst:2
 msgid "📁 Case manipulation"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/base.pydocstring
-#: of foamlib._cases.base.FoamCaseBase:1
-msgid ""
-"Bases: :py:class:`~collections.abc.Sequence`\\ [FoamCaseBase.TimeDirectory],"
-" :py:class:`~os.PathLike`\\ [:py:class:`str`]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/base.pydocstring
@@ -160,14 +153,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/base.pydocstring
 #: of foamlib._cases.base.FoamCaseBase.TimeDirectory:1
-msgid ""
-"Bases: :py:class:`~collections.abc.Set`\\ "
-"[:py:class:`~foamlib._files.files.FoamFieldFile`], "
-":py:class:`~os.PathLike`\\ [:py:class:`str`]"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/base.pydocstring
-#: of foamlib._cases.base.FoamCaseBase.TimeDirectory:1
 msgid "A time directory in an OpenFOAM case."
 msgstr ""
 
@@ -222,13 +207,6 @@ msgstr ""
 msgid "Delete the field file with the given name in this time directory."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/async_.pydocstring
-#: of foamlib._cases.async_.AsyncFoamCase:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/sync.pydocstring
-#: of foamlib._cases.sync.FoamCase:1
-msgid "Bases: :py:class:`~foamlib._cases._run.FoamCaseRunBase`"
-msgstr ""
-
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase:1
 msgid "An OpenFOAM case with synchronous execution capabilities."
@@ -265,13 +243,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/sync.pydocstring
 #: of foamlib._cases.sync.FoamCase.copy:10
 msgid "Example usage: ::"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/async_.pydocstring
-#: of foamlib._cases.async_.AsyncFoamCase.TimeDirectory:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/sync.pydocstring
-#: of foamlib._cases.sync.FoamCase.TimeDirectory:1
-msgid "Bases: :py:class:`~foamlib._cases._run.FoamCaseRunBase.TimeDirectory`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/async_.pydocstring
@@ -679,13 +650,15 @@ msgstr ""
 msgid "An iterable of results from the function."
 msgstr ""
 
-#: ../docstring of foamlib.AsyncFoamCase.max_cpus:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/async_.pydocstring
+#: of foamlib.AsyncFoamCase.max_cpus:1
 msgid ""
 "Maximum number of CPUs to use for running instances of "
 ":class:`AsyncFoamCase` concurrently."
 msgstr ""
 
-#: ../docstring of foamlib.AsyncFoamCase.max_cpus:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/async_.pydocstring
+#: of foamlib.AsyncFoamCase.max_cpus:3
 msgid "Defaults to the number of CPUs on the system."
 msgstr ""
 
@@ -724,11 +697,6 @@ msgstr ""
 msgid ""
 "Instances of :class:`AsyncFoamCase` (:meth:`run` will be called) or "
 "arbitrary awaitables (will be awaited as-is)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/slurm.pydocstring
-#: of foamlib._cases.slurm.AsyncSlurmFoamCase:1
-msgid "Bases: :py:class:`~foamlib._cases.async_.AsyncFoamCase`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/_cases/slurm.pydocstring

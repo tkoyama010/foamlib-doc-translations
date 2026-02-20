@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 00:11+0000\n"
+"POT-Creation-Date: 2026-02-20 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,43 +32,43 @@ msgstr ""
 msgid "For concrete classes in **foamlib** that represent files and some stored data types (like :class:`foamlib.Dimensioned`), see the :class:`foamlib.FoamFile` section."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.SubDict:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.SubDict:1
 msgid "An OpenFOAM dictionary nested in a file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.Data:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.Data:1
 msgid "A single OpenFOAM value, or multiple values as a tuple."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.StandaloneData:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.StandaloneData:1
 msgid "One or more OpenFOAM values that can appear at the top level of a file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.DataEntry:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.DataEntry:1
 msgid "A single OpenFOAM value."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.StandaloneDataEntry:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.StandaloneDataEntry:1
 msgid "A single OpenFOAM value that can appear at the top level of a file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of builtins.dict:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of builtins.dict:1
 msgid "An OpenFOAM dictionary."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of builtins.tuple:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of builtins.tuple:1
 msgid "An OpenFOAM keyword entry (i.e., a key-value pair)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of builtins.list:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of builtins.list:1
 msgid "An OpenFOAM list."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.Field:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.Field:1
 msgid "An OpenFOAM field of scalars, vectors, symmetric tensors, or full tensors."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.Tensor:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.Tensor:1
 msgid "An OpenFOAM scalar, vector, symmetric tensor, or full tensor."
 msgstr ""
 
@@ -80,46 +80,46 @@ msgstr ""
 msgid "These \"Like\" type variants accept the standard type plus other formats that could potentially be converted to the standard type."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of collections.abc.Mapping:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of collections.abc.Mapping:1
 msgid "Any mapping that could be interpreted as a :type:`SubDict`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.DataLike:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.DataLike:1
 msgid "Any type that could be interpreted as a :type:`Data`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.StandaloneDataLike:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.StandaloneDataLike:1
 msgid "Any type that could be interpreted as a :type:`StandaloneData`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.DataEntryLike:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.DataEntryLike:1
 msgid "Any type that could be interpreted as a :type:`DataEntry`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.StandaloneDataEntryLike:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.StandaloneDataEntryLike:1
 msgid "Any type that could be interpreted as a :type:`StandaloneDataEntry`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of collections.abc.Mapping:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of collections.abc.Mapping:1
 msgid "Any mapping that could be interpreted as a :type:`Dict`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of builtins.tuple:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of builtins.tuple:1
 msgid "Any 2-tuple that could be interpreted as a :type:`KeywordEntry`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of collections.abc.Sequence:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of collections.abc.Sequence:1
 msgid "Any sequence that could be interpreted as a :type:`List`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.FieldLike:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.FieldLike:1
 msgid "Any type that could be interpreted as a :type:`Field`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.TensorLike:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.TensorLike:1
 msgid "Any type that could be interpreted as a :type:`Tensor`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.DimensionSetLike:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.11/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.DimensionSetLike:1
 msgid "Any type that could be interpreted as a :class:`foamlib.DimensionSet`."
 msgstr ""

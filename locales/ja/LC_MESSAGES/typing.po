@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 00:14+0000\n"
+"POT-Creation-Date: 2026-09-02 00:09+0000\n"
 "PO-Revision-Date: 2025-12-12 00:07+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -65,17 +65,17 @@ msgid "A single OpenFOAM value that can appear at the top level of a file."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages/foamlib/typing.pydocstring
-#: of builtins.dict:1
+#: of foamlib.typing.Dict:1
 msgid "An OpenFOAM dictionary."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages/foamlib/typing.pydocstring
-#: of builtins.tuple:1
+#: of foamlib.typing.KeywordEntry:1
 msgid "An OpenFOAM keyword entry (i.e., a key-value pair)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages/foamlib/typing.pydocstring
-#: of builtins.list:1
+#: of foamlib.typing.List:1
 msgid "An OpenFOAM list."
 msgstr ""
 
@@ -101,7 +101,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages/foamlib/typing.pydocstring
-#: of collections.abc.Mapping:1
+#: of foamlib.typing.SubDictLike:1
 msgid "Any mapping that could be interpreted as a :type:`SubDict`."
 msgstr ""
 
@@ -126,17 +126,17 @@ msgid "Any type that could be interpreted as a :type:`StandaloneDataEntry`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages/foamlib/typing.pydocstring
-#: of collections.abc.Mapping:1
+#: of foamlib.typing.DictLike:1
 msgid "Any mapping that could be interpreted as a :type:`Dict`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages/foamlib/typing.pydocstring
-#: of builtins.tuple:1
+#: of foamlib.typing.KeywordEntryLike:1
 msgid "Any 2-tuple that could be interpreted as a :type:`KeywordEntry`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages/foamlib/typing.pydocstring
-#: of collections.abc.Sequence:1
+#: of foamlib.typing.ListLike:1
 msgid "Any sequence that could be interpreted as a :type:`List`."
 msgstr ""
 

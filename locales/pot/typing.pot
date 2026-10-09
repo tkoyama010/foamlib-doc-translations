@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-08 00:09+0000\n"
+"POT-Creation-Date: 2026-10-09 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "The following are aliases of the primary types used throughout **foamlib*
 msgstr ""
 
 #: ../../foamlib/docs/typing.rst:9
-msgid "For concrete classes in **foamlib** that represent files and some stored data types (like :class:`foamlib.Dimensioned`), see the :class:`foamlib.FoamFile` section."
+msgid "For concrete classes in **foamlib** that represent files and some stored data types (like :class:`foamlib.Dimensioned`), see :ref:`additional-classes`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/typing.py:docstring of foamlib.typing.SubDict:1

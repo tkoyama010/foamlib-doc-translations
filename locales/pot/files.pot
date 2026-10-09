@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-08 00:09+0000\n"
+"POT-Creation-Date: 2026-10-09 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -213,35 +213,11 @@ msgid "If this is the outermost context, write any deferred file changes to disk
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.loads:1
-msgid "Standalone deserializing function."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.loads:3
-msgid "Deserialize the OpenFOAM FoamFile format to Python objects."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.loads:5
-msgid "The string to deserialize. This can be a dictionary, list, or any other object that can be serialized to the OpenFOAM format."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.loads:7
-msgid "Whether to include the \"FoamFile\" header in the output. If `True`, the header will be included if it is present in the input object."
+msgid "Alias of :func:`foamlib.loads`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.dumps:1
-msgid "Standalone serializing function."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.dumps:3
-msgid "Serialize Python objects to the OpenFOAM FoamFile format."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.dumps:5
-msgid "The Python object to serialize. This can be a dictionary, list, or any other object that can be serialized to the OpenFOAM format."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.dumps:7
-msgid "Whether to include the \"FoamFile\" header in the output. If ``True``, a header will be included if it is not already present in the input object."
+msgid "Alias of :func:`foamlib.dumps`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict:1
@@ -352,7 +328,7 @@ msgstr ""
 msgid "Alias of ``self[\"type\"]``."
 msgstr ""
 
-#: ../../foamlib/docs/files.rst:94
+#: ../../foamlib/docs/files.rst:95
 msgid "Additional classes"
 msgstr ""
 
@@ -416,7 +392,65 @@ msgstr ""
 msgid "Power of the luminous intensity dimension."
 msgstr ""
 
-#: ../../foamlib/docs/files.rst:102
+#: ../../foamlib/docs/files.rst:103
+msgid "Additional functions"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dump:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dumps:1
+msgid "Standalone serializing function (i.e., does not use :class:`foamlib.FoamFile`)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dump:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dumps:3
+msgid "Serialize Python objects directly to the OpenFOAM FoamFile format."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dump:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dumps:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.load:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.loads:5
+msgid "For more convenience when working with OpenFOAM cases, it is recommended to use the :class:`foamlib.FoamFile` class instead of calling this function."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dump:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dumps:8
+msgid "The Python object to serialize. This can be a dictionary, list, or any other object that can be serialized to the OpenFOAM format."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dump:10
+msgid "A binary file-like object to write the serialized data to."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dump:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.dumps:10
+msgid "Whether to include the \"FoamFile\" header in the output. If ``True``, a header will be included if it is not already present in the input object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.load:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.loads:1
+msgid "Standalone deserializing function (i.e., does not use :class:`foamlib.FoamFile`)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.load:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.loads:3
+msgid "Deserialize the OpenFOAM FoamFile format directly to Python objects."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.load:8
+msgid "A file-like object to read from."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.load:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.loads:10
+msgid "Whether to include the \"FoamFile\" header in the output. If `True`, the header will be included if it is present in the input object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/standalone.py:docstring of foamlib._files.standalone.loads:8
+msgid "The string to deserialize. This can be a dictionary, list, or any other object that can be serialized to the OpenFOAM format."
+msgstr ""
+
+#: ../../foamlib/docs/files.rst:115
 msgid "Exceptions"
 msgstr ""
 

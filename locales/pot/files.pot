@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-09 00:10+0000\n"
+"POT-Creation-Date: 2026-10-20 00:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,8 +144,12 @@ msgstr ""
 msgid "Return the number of top-level keywords in the FoamFile (excluding the FoamFile header if present)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.__iter__:1
-msgid "Iterate over the top-level keys in the FoamFile (excluding the FoamFile header if present)."
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/multicollections/abc.py:docstring of multicollections.abc.MultiMapping.__iter__:1
+msgid "Return an iterator over the keys."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/multicollections/abc.py:docstring of multicollections.abc.MultiMapping.__iter__:3
+msgid "Keys with multiple values will be yielded just once, on the first occurrence of each key."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.keys:1
@@ -246,14 +250,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict.__len__:1
 msgid "Return the total number of items (key-value pairs)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict.__iter__:1
-msgid "Return an iterator over the keys."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict.__iter__:3
-msgid "Keys with multiple values will be yielded multiple times."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.13.16/x64/lib/python3.13/site-packages/foamlib/_files/files.py:docstring of foamlib._files.files.FoamFile.SubDict.keys:1

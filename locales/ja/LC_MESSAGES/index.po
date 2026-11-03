@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 00:07+0000\n"
+"POT-Creation-Date: 2026-10-30 00:06+0000\n"
 "PO-Revision-Date: 2025-10-12 05:41+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
@@ -60,18 +60,18 @@ msgstr ""
 msgid "📚 Documentation guide"
 msgstr "📚 ドキュメントガイド"
 
-#: ../../foamlib/docs/index.rst:32
+#: ../../foamlib/docs/index.rst:33
 msgid "🔍 Indices and search"
 msgstr "🔍 インデックスと検索"
 
-#: ../../foamlib/docs/index.rst:34
+#: ../../foamlib/docs/index.rst:35
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: ../../foamlib/docs/index.rst:35
+#: ../../foamlib/docs/index.rst:36
 msgid ":ref:`modindex`"
 msgstr ":ref:`modindex`"
 
-#: ../../foamlib/docs/index.rst:36
+#: ../../foamlib/docs/index.rst:37
 msgid ":ref:`search`"
 msgstr ":ref:`search`"

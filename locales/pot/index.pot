@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 00:07+0000\n"
+"POT-Creation-Date: 2026-10-30 00:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,18 +36,18 @@ msgstr ""
 msgid "📚 Documentation guide"
 msgstr ""
 
-#: ../../foamlib/docs/index.rst:32
+#: ../../foamlib/docs/index.rst:33
 msgid "🔍 Indices and search"
 msgstr ""
 
-#: ../../foamlib/docs/index.rst:34
+#: ../../foamlib/docs/index.rst:35
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../foamlib/docs/index.rst:35
+#: ../../foamlib/docs/index.rst:36
 msgid ":ref:`modindex`"
 msgstr ""
 
-#: ../../foamlib/docs/index.rst:36
+#: ../../foamlib/docs/index.rst:37
 msgid ":ref:`search`"
 msgstr ""

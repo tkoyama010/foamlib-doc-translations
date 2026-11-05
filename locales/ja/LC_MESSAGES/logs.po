@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: foamlib\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 00:06+0000\n"
+"POT-Creation-Date: 2026-11-04 00:05+0000\n"
 "PO-Revision-Date: 2026-10-30 00:06+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/299639/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -117,45 +117,45 @@ msgstr ""
 msgid "API reference"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog:1
 msgid "A parsed OpenFOAM log."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog:3
 msgid ""
 "Build one with :meth:`read` (a path), :meth:`load` (an open file) or "
 ":meth:`loads` (a string)::"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs.FoamLog.healthy:1
 msgid "``False`` when the run failed, diverged, or finished dirty."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.load:1
 msgid "Parse a log from an open file, text or binary."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.load:3
 msgid ""
 "``name`` defaults to ``fp.name`` when the file has one; see :meth:`loads`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.loads:1
 msgid "Parse a log held in memory."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.loads:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.loads:3
 msgid ""
 "The filename the log was saved under, such as ``\"log.simpleFoam\"``. It is "
@@ -165,7 +165,7 @@ msgid ""
 "that fallback."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.loads:8
 msgid ""
 "The solver tolerance from ``system/fvSolution``, either one value or one per"
@@ -173,7 +173,7 @@ msgid ""
 "listed use :data:`SOLVED_TOL`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.loads:12
 msgid ""
 ":attr:`steady` is ``True`` or ``False`` only when the log says so: a SIMPLE "
@@ -184,12 +184,12 @@ msgid ""
 "``ddtSchemes`` in the case, not the log."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.read:1
 msgid "Parse the log file at ``path``, streaming it line by line."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.residual_history:1
 msgid ""
 "One row per time step for ``field``, optionally only the final ``last`` of "
@@ -198,12 +198,12 @@ msgid ""
 " the field and ``final`` from the last."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.summary:1
 msgid "A JSON-ready verdict whose size does not grow with the run."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.FoamLog.summary:3
 msgid ""
 "Lists are capped by how alarming their entries are, and ``*_total`` gives "
@@ -211,125 +211,125 @@ msgid ""
 ":meth:`residual_history` for those."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.Status:1
 msgid "How the run ended."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.Status:3
 msgid ""
 "This answers \"did the executable finish\", not \"is the answer any good\": "
 ":attr:`FoamLog.reason` and :attr:`FoamLog.diverging` answer that."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.Kind:1
 msgid "What the log is a record of."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.Trend:1
 msgid "Where a field's residuals were heading, worst first."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.SolverSource:1
 msgid "Where the solver name came from, so it can be trusted accordingly."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs.SolverSource.EXEC:1
 msgid "the solver is its own executable, as for the classic solvers"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs.SolverSource.FILENAME:1
 msgid "inferred from the filename because the header was stripped or absent"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs.SolverSource.MODULE:1
 msgid "a module loaded by the .org ``foamRun``/``foamMultiRun`` runners"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs.SolverSource.UNKNOWN:1
 msgid "no evidence at all"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.Diagnostic:1
 msgid "A named failure mode, with the specifics pulled out of the log."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.ResidualHistory:1
 msgid "How one field behaved over the whole run."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.Residual:1
 msgid "One field's residuals within one time step."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.Step:1
 msgid "One time step."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_log.pydocstring
 #: of foamlib.logs._log.PhaseInfo:1
 msgid ""
 "Phase-fraction bookkeeping for a VoF run: mass conservation, in effect."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_diagnostics.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_diagnostics.pydocstring
 #: of foamlib.logs._diagnostics.DiagnosticSpec:1
 msgid "One recognisable failure mode."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_diagnostics.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_diagnostics.pydocstring
 #: of foamlib.logs._diagnostics.Severity:1
 msgid "Whether a named failure stopped the run."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_diagnostics.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_diagnostics.pydocstring
 #: of foamlib.logs._diagnostics.Source:1
 msgid ""
 "How much to trust that this pattern matches what OpenFOAM really prints."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_diagnostics.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_diagnostics.pydocstring
 #: of foamlib.logs.Source.CORPUS:1
 msgid "seen firing on real logs in the validation corpus"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/_diagnostics.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/_diagnostics.pydocstring
 #: of foamlib.logs.Source.INFERRED:1
 msgid ""
 "plausible from the tool's behaviour but never observed in the corpus. Treat "
 "a hit as a hint, and please open an issue with the log."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/__init__.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/__init__.pydocstring
 #: of foamlib.logs.SOLVED_TOL:1
 msgid "Convert a string or number to a floating-point number, if possible."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/__init__.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/__init__.pydocstring
 #: of foamlib.logs.DIAGNOSTICS:1
 msgid "Built-in immutable sequence."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/__init__.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/__init__.pydocstring
 #: of foamlib.logs.DIAGNOSTICS:3
 msgid ""
 "If no argument is given, the constructor returns an empty tuple. If iterable"
 " is specified the tuple is initialized from iterable's items."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/foamlib/logs/__init__.pydocstring
+#: ../../../../../../../opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/foamlib/logs/__init__.pydocstring
 #: of foamlib.logs.DIAGNOSTICS:6
 msgid "If the argument is a tuple, the return value is the same object."
 msgstr ""
